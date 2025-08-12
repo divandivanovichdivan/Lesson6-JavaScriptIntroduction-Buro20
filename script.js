@@ -25,11 +25,11 @@ if (lang == "ru") {
     } else if (6 <= time && time < 12) {
         alert("Доброе утро");
     } else if (12 <= time && time < 18) {
-        alert("Добрый день")
+        alert("Добрый день");
     } else if (18 <= time && time < 24) {
-        alert("Добрый вечер")
+        alert("Добрый вечер");
     } else {
-        alert("Проверьте правильно ли вы указали время (число от 0 до 23)")
+        alert("Проверьте правильно ли вы указали время (число от 0 до 23)");
     }
 } else if (lang == "en") {
     let DaysEn = ["mn", "ts", "wd", "th", "fr", "st", "sn"];
@@ -57,11 +57,11 @@ if (lang == "ru") {
     } else if (6 <= time && time < 12) {
         alert("Good morning");
     } else if (12 <= time && time < 18) {
-        alert("Good afternoon")
+        alert("Good afternoon");
     } else if (18 <= time && time < 24) {
-        alert("Good evening")
+        alert("Good evening");
     } else {
-        alert("Check if you have entered the time correctly (a number between 0 and 23)")
+        alert("Check if you have entered the time correctly (a number between 0 and 23)");
     }
 } else {
     alert("Я же сказал en/ru! I told you en/ru!");
